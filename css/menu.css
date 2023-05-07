@@ -25,10 +25,13 @@
 		width: 90%;
 		max-width: 1200px;
 		margin: auto;
+	
 	}
 	.container .btn-menu, .logo{
 		float: left;
 		line-height:100px;
+		position: relative;
+		right: 0;
 	}
 	.container .btn-menu label{
 		color: #000000;

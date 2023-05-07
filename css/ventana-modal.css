@@ -10,8 +10,9 @@ body{
 }
 /*:::Boton-Modal:::*/
 .boton-modal{
-    padding: 40px;
-    background-color: #fff;
+    position: absolute;
+    padding: 5%;
+    right: 0;
 }
 .boton-modal label{
     padding: 10px 15px;

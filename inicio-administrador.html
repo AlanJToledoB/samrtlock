@@ -1,58 +1,64 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Menù Lateral con Css</title>
 	<link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/ventana-modal.css">
+	<link rel="stylesheet" href="css/ventana-modal.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 	<header class="header">
 		<div class="container">
-		<div class="btn-menu">
-			<label for="btn-menu">☰</label>
-		</div>
+			<div class="btn-menu">
+				<label for="btn-menu">☰</label>
+			</div>
 			<div class="logo">
 				<h1></h1>
 			</div>
-			<div class="ventana-modal">
-                <div class="boton-modal">
-                    <label for="btn-modal">
-                        Abrir Modal
-                    </label>
-                </div>
-            <!--Fin de Boton-->
-            <!--Ventana Modal-->
-                <input type="checkbox" id="btn-modal">
-                <div class="container-modal">
-                    <div class="content-modal">
-                            <!-- agregar iconos para mas lindura -->
-                        <h2>¡Bienvenido!</h2>
-                        <p>aca iria el perfil jskajsja</p>
-                        <div class="btn-cerrar">
-                            <label for="btn-modal">Cerrar</label>
-                        </div>
-                    </div>
-                    <label for="btn-modal" class="cerrar-modal"></label>
-                </div>
-            </div>
+			<div class="capa"></div>
+			<!--	--------------->
+			<input type="checkbox" id="btn-menu">
+			<div class="container-menu">
+				<div class="cont-menu">
+					<nav>
+						<a href="#">Portafolio</a>
+						<a href="#">Servicios</a>
+						<a href="#">Suscribirse</a>
+						<a href="#">Facebook</a>
+						<a href="#">Youtube</a>
+						<a href="#">Instagram</a>
+					</nav>
+					<label for="btn-menu">✖️</label>
+				</div>
+			</div>
 		</div>
+		<!-- inicio de ventana modal -->
+		<div class="ventana-modal">
+			<div class="boton-modal">
+				<label for="btn-modal">
+					Abrir Modal
+				</label>
+			</div>
+			<!--Fin de Boton-->
+			<!--Ventana Modal-->
+			<input type="checkbox" id="btn-modal">
+			<div class="container-modal">
+				<div class="content-modal">
+					<!-- agregar iconos para mas lindura -->
+					<h2>¡Bienvenido!</h2>
+					<p>aca iria el perfil jskajsja</p>
+					<div class="btn-cerrar">
+						<label for="btn-modal">Cerrar</label>
+					</div>
+				</div>
+				<label for="btn-modal" class="cerrar-modal"></label>
+			</div>
+		</div>
+
 	</header>
-	<div class="capa"></div>
-<!--	--------------->
-<input type="checkbox" id="btn-menu">
-<div class="container-menu">
-	<div class="cont-menu">
-		<nav>
-			<a href="#">Portafolio</a>
-			<a href="#">Servicios</a>
-			<a href="#">Suscribirse</a>
-			<a href="#">Facebook</a>
-			<a href="#">Youtube</a>
-			<a href="#">Instagram</a>
-		</nav>
-		<label for="btn-menu">✖️</label>
-	</div>
-</div>
 </body>
+
 </html>
